@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css\styles2.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Calcular Notas</title>
+
+</head>
+<body>
+    <main id="container"> 
+        <section id="img">
+            <img src="imagens\LOGO ULBRA.png">
+        </section>
+
+        <section id="calculator">
+            <form id="form">
+                <h1 id="title">
+                    Calcular Notas
+                </h1>
+
+                <div class="input-box">
+                    <label for="width">
+                        Nota G1
+                    </label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-dice"></i>
+                        <input type="text" id="width" required>
+                        <span>
+                            G1
+                        </span>
+                    </div>
+                </div>
+
+                <hr>
+
+                <button id="calculate"> 
+                    Calcular
+                </button>
+
+            </form>
+            <div id="infos" class="hidden">
+                <div id="result">
+                    <div id="description">
+                        <span></span>
+                    </div>
+                    <div id="precisa">
+                        <span id="value"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js\scripts2.js"></script>
+</body>
+</html>

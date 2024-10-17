@@ -1,0 +1,95 @@
+/* Estilos globais */
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #7E2429;
+}
+
+#img img {
+  width: 8rem;
+  margin-bottom: 20px;
+}
+
+.all {
+  width: 30%;
+  max-width: 1200px;
+  background-color: #ad5252;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #7E2429;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.button-container a {
+  display: block;
+  width: 100%;
+}
+
+.gratificacoes {
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #7E2429;
+}
+
+hr {
+  width: 70%;
+  margin: 20px auto;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+span {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* Media Queries */
+
+/* Dispositivos pequenos (smartphones) */
+@media (max-width: 600px) {
+  .all {
+    width: 75%;
+    padding: 20px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  #img img {
+    width: 6rem;
+  }
+  
+  hr {
+    width: 90%;
+  }
+}
