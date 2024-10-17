@@ -151,6 +151,12 @@ body {
     display: none;
 }
 
+hr {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
 /* Media Queries */
 
 /* Dispositivos pequenos (smartphones) */
@@ -160,7 +166,6 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 300px;
     }
 
     #img img {
@@ -175,6 +180,5 @@ body {
 
     #calculator {
         width: 80%;
-        margin-bottom: 100px;
     }
 }

@@ -16,8 +16,7 @@ body {
 }
 
 .all {
-  width: 30%;
-  max-width: 1200px;
+  width: 600px;
   background-color: #ad5252;
   display: flex;
   flex-direction: column;
@@ -31,7 +30,7 @@ body {
 button {
   background-color: #7E2429;
   color: white;
-  padding: 15px 30px;
+  padding: 15px 60px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -69,27 +68,4 @@ hr {
 span {
   font-weight: bold;
   font-size: 15px;
-}
-
-/* Media Queries */
-
-/* Dispositivos pequenos (smartphones) */
-@media (max-width: 600px) {
-  .all {
-    width: 75%;
-    padding: 20px;
-  }
-
-  button {
-    padding: 10px 20px;
-    font-size: 14px;
-  }
-
-  #img img {
-    width: 6rem;
-  }
-  
-  hr {
-    width: 90%;
-  }
 }

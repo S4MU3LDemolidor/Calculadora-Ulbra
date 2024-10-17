@@ -152,16 +152,20 @@ body {
     display: none;
 }
 
-/* Media Queries */
+hr {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
 
-/* Dispositivos pequenos (smartphones) */
+
+/* Dispositivos pequenos */
 @media (max-width: 600px) {
     #container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 300px;
     }
 
     #img img {
@@ -176,7 +180,6 @@ body {
 
     #calculator {
         width: 90%;
-        margin-bottom: 60px;
     }
 }
   
