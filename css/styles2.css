@@ -166,10 +166,12 @@ hr {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 1rem;
     }
 
     #img img {
         width: 50%;
+        margin-top: 200px;
     }
 
     #img {
@@ -180,5 +182,6 @@ hr {
 
     #calculator {
         width: 80%;
+        margin-bottom: 50px;
     }
 }
